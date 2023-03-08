@@ -1,0 +1,870 @@
+ /* ------------------ Root Variables ------------------ */
+:root {
+    --color-primary: #AC11B3;
+    --color-secondary: #FFCA1A;
+
+    --color-primary-light: #FFEFBB;
+    --color-scondary-light: #FCC1FF;
+
+    --color-primary-dark: #4F0053;
+    --color-secondary-dark: #967300;
+
+    --color-white: #fff;
+    
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    font-family: 'Baloo Thambi 2', cursive !important; 
+    font-weight: 800 !important;
+    font-size: 1.5rem !important; 
+
+}
+
+h1{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.area1 {
+    
+    
+}
+
+/* img{
+    width: 300px;
+} */
+
+button{
+    margin: 5px 5px;
+}
+
+hr{
+    margin: 0;
+}
+
+
+
+.colored-section {
+    background-color: #AC11B3;
+    color: var(--color-secondary);
+    /* height: 80vh; */
+  }
+  
+.white-section {
+    background-color: #fff;
+    color: var(--color-primary);
+    /* height: 80vh; */
+  }
+
+.yellow-section {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    /* height: 80vh; */
+}
+
+.container-fluid{
+    padding: 7% 10%;
+  }
+
+
+video {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    width: 25%;
+    z-index: ;
+}
+
+.area1 {
+    z-index: 1;
+}
+
+
+
+/* -----------NAVBAR----------- */
+
+
+.navbar {
+    padding: 0;
+    margin-top: 0;
+    background-color: white;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+.navbar-collapse {
+    background-color: white !important;
+}
+
+#navbar-example2 .container-fluid{
+    padding: 0;
+
+}
+
+#navbar-example2 .active {
+    font-weight: 600;
+    color: white;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: var(--color-primary);
+
+}
+
+.navbar img {
+    width: 10rem;
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+.navbar .nav-item {
+    margin: 0 15px;
+}
+
+.navbar .nav-item a {
+    font-family: ;
+    font-weight: 800;
+    font-size: 18px;
+    color: #AC11B3;
+}
+
+.navbar .nav-item :hover {
+    font-weight: 600;
+    
+}
+
+.navbar .nav-item {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+.navbar .nav-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #AC11B3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+.navbar .nav-item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: black;
+  }
+
+.navbar form button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.navbar ul .login-button {
+    border-color: #AC11B3;
+    color: #AC11B3;
+}
+
+.navbar ul .login-button:hover {
+    border-color: #AC11B3;
+    background-color: #AC11B3;
+    color: #fff;
+}
+
+.navbar ul .mulai-disini-button {
+    margin: 0;
+    padding: 3px 15px;
+    color: var(--color-primary);
+
+    background-color: var(--color-secondary);
+    outline-color: var(--color-white);
+
+    border-radius: 10rem;
+    border-width: 0.1rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar ul .signup-button:hover {
+    border-color: #AC11B3;
+    background-color: #fff;
+    color: #AC11B3;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar-dropdown{
+    margin-right: 30px;
+}
+
+
+
+/* -----------TITLE----------- */
+
+#title {
+    /* height: 100vh; */
+    /* padding-top: 20vh; */
+    color: var(--color-primary);
+    background-color: white;
+    background: ;
+    
+}
+
+
+#title .container-fluid {
+  padding: 3% 11% 7%;
+}
+
+#title h1{
+    margin-bottom: 2rem;
+    font-size: 3.25rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+#title h1 #hastag {
+    
+    /* font-family: Poppins, sans-serif; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color: white;
+    border-width: 3rem;
+
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--color-primary);
+    /* -webkit-text-fill-color: white; */
+
+    text-shadow: var(--color-primary) 0px 3px 7px;
+
+}
+
+#title p {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    text-align: justify;
+}
+
+#title .download-button {
+    transition: box-shadow .3s;
+    
+}
+
+#title .download-button:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+#title .heading {
+    /* padding-top: 10%; */
+    
+}
+
+/* #title .heading img{
+    width: 50vh;
+} */
+
+.heading {
+    padding-top: 7%;
+}
+
+.playstore-download{
+    color: white;
+    border-color: white;
+}
+
+
+.download-button {
+    display: flex;
+}
+
+#title .download-button img {
+    width: 10vw;
+}
+
+.login-button .btn{
+    width: 9rem;
+    height: 3rem;
+
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+
+    background-color: var(--color-secondary);
+
+    border-radius: 10rem;
+    border-width: 0.225rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    padding-bottom: 2.5rem;
+} 
+
+.cs-wa-float {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+
+    transition: box-shadow .3s;
+}
+
+.cs-wa-float:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+.cs-wa-float img {
+width: 5rem;
+}
+
+#title img {
+    position: absolute;
+    width: 60%;
+    right: -10%;
+    top: -5%;
+}
+
+/* -----------WHATS LEAL----------- */
+
+#whats-leal {
+    background-color: white;
+    color: var(--color-primary);
+    position: relative;
+    /* height: 100vh; */
+   
+}
+
+#whats-leal h1 {
+    font-size: 3rem;
+}
+
+#whats-leal p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+}
+
+#whats-leal .heading {
+    margin-bottom: 50px;
+}
+
+#whats-leal .image {
+    display: flex;
+    justify-content: center;
+}
+
+/* -----------WHY LEAL----------- */
+
+#why-leal {
+    margin: 0;
+}
+
+#why-leal p {
+    color: white
+}
+
+#why-leal img {
+    width: 150px;
+}
+
+.why-leal-head {
+    margin-bottom: 30px;
+}
+
+.why-leal-col1{
+    padding-left: max(10%);
+}
+
+.why-leal-col2{
+    padding-right: max(10%);
+}
+
+
+
+/* -----------YOUR ZOO----------- */
+
+
+#your-zoo h2{
+    color: var(--color-secondary);
+}
+
+#your-zoo p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.your-zoo-pict {
+    width: 100%;
+    height: 300px;
+    background-color: #f3f3f3;
+    border-radius: 2.5rem;
+}
+
+#your-zoo .your-zoo-heading p {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+
+/* -----------YOUR ZOO----------- */
+.how-to-use-leal-text{
+    padding-top: 10%;
+}
+
+.how-to-use-leal-button{
+    margin-top: 5%;
+
+
+
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 800;
+    font-size: 2rem !important;
+    color: var(--color-primary);
+
+    background-color: white;
+
+    border-radius: 10rem;
+    /* border-width: 0.225rem; */
+    /* border-color: white; */
+    
+    box-shadow: var(--color-secondary) 0px 5px 15px;
+
+    
+}
+
+
+
+/* -----------START JOURNEY----------- */
+.start-journey-button{
+    margin-top: 5%;
+
+ 
+
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 800;
+    font-size: 2rem !important;
+    color: var(--color-primary);
+
+    background-color: white;
+
+    color: var(--color-primary);
+
+    background-color: var(--color-secondary);
+    outline-color: var(--color-white);
+
+    border-radius: 10rem;
+    border-width: 0.225rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+}
+
+#start-journey img{
+    height: 35rem;
+}
+
+
+/* -----------MAIN FEATURE----------- */
+
+#main-feature {
+
+}
+
+#main-feature h1 {
+    color: ;
+}
+
+#main-feature .feature-item i {
+    color: #FFCA1A;
+}
+
+.feature-item i {
+    font-size: 4rem;
+}
+
+.feature-item h1 {
+    font-weight: 400;
+}
+
+.feature-item h3 {
+    font-family: ;
+    font-weight: 500;
+    font-size: 2rem;
+    
+}
+
+
+/* -----------GAMMIFICATION CONCEPT----------- */
+
+#gam-concept {
+    background-color: var(--color-secondary);
+}
+
+.gam-head {
+    margin: auto;
+}
+
+.gam-head  h3{
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.gam-desc h2 {
+    color: white;
+    font-family: ;
+    font-weight: ;
+    font-size: 2rem;
+
+}
+
+.gam-desc img {
+    width: 100%;
+}
+
+.gam-desc h3 {
+    font-family: ;
+    font-weight: ;
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+
+.gam-desc p {
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+/* -----------OUR PARTNER----------- */
+
+#our-partner {
+    padding: 3% 13% 1%;
+    
+}
+
+#our-partner .our-partner-heading {
+    color: white;
+    background-color: var(--color-primary);
+    width: fit-content;
+    border-radius: 2rem;
+}
+
+#our-partner h1 {
+    font-size: 2.5rem;
+}
+
+#our-partner .partner-item img {
+    width: 13%;
+}
+
+#our-partner .partner-inv h3 {
+    font-family: ;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.text-purple {
+    color: var(--color-primary);
+}
+
+
+/* -----------PARTNERS----------- */
+
+#partners {
+
+}
+
+#partners .partner-list {
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+#partners .partner-item {
+    padding: 0;
+}
+
+#partners .partner-item img {
+    height: 6rem;
+    margin-top: 30px;
+}
+
+#partners .partner-item div{
+    
+    /* width: 15rem; */
+    margin-top: 10px;
+    /* border-style: solid; */
+    text-align: center;
+    margin: 0 auto;  
+}
+
+#partners h3 {
+    display: inline-flex;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    border: 2px;
+    /* border-radius: 50%; */
+    border-width: 1px;
+    /* border: #4F0053; */
+
+    text-align: center;
+    display: block;
+    border: 2px solid ;
+    border-color: var(--color-primary);
+    border-radius: 2rem;
+     
+    margin: 12px auto;
+
+    width: 12rem;
+    
+}
+
+#partners .partners-footer {
+    margin-top: 30px;
+}
+
+#partners .partners-footer h2 {
+    font-size: 2rem;
+}
+
+#partners button {
+    display: block;
+    margin: 10px auto;
+    padding: 3px 15px;
+    color: var(--color-primary);
+
+    font-size: 1.3rem !important;
+    
+    background-color: var(--color-secondary);
+    outline-color: var(--color-white);
+    
+    border-radius: 10rem;
+    border-width: 0.15em;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+/* -----------HOW TO USE----------- */
+
+#how-to-use .how-to-use-desc {
+    margin: auto;
+}
+
+#how-to-use .how-to-use-desc h2 {
+    font-family: ;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+#how-to-use .how-to-use-desc .bordered-text {
+    background-color: white;
+    width: fit-content;
+    border-radius: 2rem;
+    color: var(--color-primary);
+
+}
+
+#how-to-use .how-to-use-pict img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* -----------DOWNLOAD NOW----------- */
+
+#download-now {
+    
+}
+
+#download-now .download-now-head h1 {
+    margin: 200px 0;
+    
+}
+
+#download-now .illustration img {
+    width: 100%;
+    height: 100%;
+}
+
+#download-now .download-button {
+    
+    padding-left: 300px;
+}
+
+#download-now .download-button img {
+    width: 10vw;
+}
+
+
+/* -----------FOOTER----------- */
+
+#footer {
+    text-align: center;
+    padding: 1% 15% 2%;
+    color: white;
+    height: 15vh;
+}
+
+
+.footer-media {
+    margin: 0 1%;
+}
+
+.footer-tag {
+    margin-top: 3%;
+    
+}
+
+@media (max-width: 1655px){
+    h1{
+        font-size: 2.75rem !important;
+    }
+}
+
+@media (max-width: 1589px){
+    #title h1{
+        text-align: center;
+        font-size: 2.5rem !important;
+    }
+
+    #title .heading {
+        padding-top: 0;
+    }
+
+    #title .login-button{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1076px){
+    h1{
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (max-width: 991px){
+    
+    .how-to-use-leal-button, 
+    .mulai-disini-button,
+    .start-journey-button 
+    {
+        font-size: 1.5rem !important;
+    }
+
+    #title{
+        text-align: center;
+    }
+    #title .login-button {
+        margin-bottom: 30px;
+    }
+
+    #whats-leal {
+        text-align: center;
+    }
+
+    #why-leal {
+        text-align: center;
+    }
+    .why-leal-col1, .why-leal-col2{
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    #your-zoo h1, #your-zoo h2 {
+        text-align: center;
+    }
+    #your-zoo p {
+        text-align: justify;
+    }
+
+    #how-to-use-leal button {
+        margin-bottom: 30px;
+    }
+
+    #title .heading img {
+        position: static;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 1410px){
+    #start-journey {
+        text-align: center;
+    }
+}
+
+@media (max-width: 806px){
+    #your-zoo: ;
+}
+
+@media (max-width: 590px){
+    .navbar {
+        height: 8vh;
+    }
+}
+
+@media (max-width: 480px){
+    .container-fluid{
+        padding: 7% 7%;
+    }
+    
+    h1,h2{
+        font-size: 2rem !important;
+        /* text-align: start; */
+    }
+
+    p{
+        font-size: 1rem !important; 
+    }
+}
+
+@media (max-width: 1028px){
+    
+    
+
+}
