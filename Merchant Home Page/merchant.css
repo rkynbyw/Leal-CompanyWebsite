@@ -294,7 +294,7 @@ video {
 }
 
 #title .heading {
-    padding-top: 10%;
+    /* padding-top: 10%; */
     
 }
 
@@ -363,12 +363,17 @@ width: 5rem;
 }
 
 #why-leal img {
-    height: 150px;
+    width: 20rem;
 }
 
 #why-leal .why-leal-head {
     margin-bottom: 60px;
 }
+
+#why-leal .why-leal-item {
+    padding: 0 3rem;
+}
+
 
 
 
@@ -397,6 +402,18 @@ width: 5rem;
 #your-zoo .your-zoo-heading p {
     text-align: justify;
     font-size: 1.25rem;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img{
+    height: 500px;
+    position: relative;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -631,6 +648,12 @@ width: 5rem;
     }
 
 
+}
+
+@media (max-width: 991px){
+    #title .title-head {
+        padding-top: 3rem;
+    }
 }
 
 @media (max-width: 768px){

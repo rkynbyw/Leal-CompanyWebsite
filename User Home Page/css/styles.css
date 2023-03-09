@@ -53,11 +53,6 @@ h3{
     font-size: 1.5rem;
 }
 
-.area1 {
-    
-    
-}
-
 /* img{
     width: 300px;
 } */
@@ -250,6 +245,10 @@ video {
 
 #title .container-fluid {
   padding: 3% 11% 7%;
+}
+
+#title .head-desc {
+    
 }
 
 #title h1{
@@ -792,6 +791,10 @@ width: 5rem;
     .start-journey-button 
     {
         font-size: 1.5rem !important;
+    }
+
+    #title .head-desc {
+        padding-top: 3rem;
     }
 
     #title{
