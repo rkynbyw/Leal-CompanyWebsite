@@ -609,7 +609,11 @@ width: 5rem;
     
 }
 
-
+@media (max-width: 1309px){
+    #why-leal .why-leal-item {
+        text-align: center!important;
+    }
+}
 
 
 @media (max-width: 1309px){
@@ -652,7 +656,7 @@ width: 5rem;
 
 @media (max-width: 991px){
     #title .title-head {
-        padding-top: 3rem;
+        padding-top: 5rem;
     }
 }
 
