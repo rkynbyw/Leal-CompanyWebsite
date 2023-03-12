@@ -378,7 +378,10 @@ width: 5rem;
     padding: 0 1.5%;
     /* padding-left: ;
     padding-right: ; */
+}
 
+#why-leal .why-leal-content-img{
+    
 }
 
 
@@ -397,7 +400,7 @@ width: 5rem;
 
 .your-zoo-pict {
     width: 100%;
-    height: 300px;
+    height: 10rem;
     background-color: #f3f3f3;
     border-radius: 2.5rem;
 }
@@ -408,14 +411,21 @@ width: 5rem;
 }
 
 #your-zoo .your-zoo-content .your-zoo-content-img{
-    height: 500px;
+    height: 22.5rem;
     position: relative;
 }
 
-#your-zoo .your-zoo-content .your-zoo-content-img img{
+#your-zoo .your-zoo-content .your-zoo-content-img-1 img{
     width: 100%;
     position: absolute;
-    bottom: 0;
+    top: 200;
+    left: 0;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img-2 img{
+    width: 100%;
+    position: absolute;
+    top: 0;
     left: 0;
 }
 
