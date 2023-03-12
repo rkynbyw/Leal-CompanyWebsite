@@ -23,7 +23,7 @@ body{
 }
 
 button{
-    font-family: 'Baloo Thambi 2', cursive !important; 
+    font-family: 'Baloo Thambi 2', cursive; 
     font-weight: 800 !important;
     font-size: 1.5rem !important; 
 
@@ -199,7 +199,7 @@ video {
 
 .navbar ul .mulai-disini-button {
     margin: 0;
-    padding: 3px 15px;
+    padding: 7px 15px;
     color: white;
 
     background-color: var(--color-primary);
@@ -209,6 +209,10 @@ video {
     border-width: 0.1rem;
     border-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important   
 }
 
 .navbar ul .signup-button:hover {
@@ -275,11 +279,11 @@ video {
     transition: box-shadow .3s;
     padding: 0;
 
-    background-color: var(--color-primary);
+     
 }
 
 #title .download-button:hover{
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 0 0 11px rgba(33,33,33,.2); f
 }
 
 #title .download-button-div{
@@ -363,7 +367,7 @@ width: 5rem;
 }
 
 #why-leal img {
-    width: 20rem;
+    
 }
 
 #why-leal .why-leal-head {
@@ -371,12 +375,11 @@ width: 5rem;
 }
 
 #why-leal .why-leal-item {
-    padding: 0 3rem;
+    padding: 0 1.5%;
+    /* padding-left: ;
+    padding-right: ; */
+
 }
-
-
-
-
 
 
 /* -----------YOUR ZOO----------- */
@@ -424,9 +427,14 @@ width: 5rem;
 
 }
 
+#partners .partners-desc p {
+    color: black;
+    font-size: 1.2rem;
+}
+
 #partners .partner-list {
     padding: 0 50px;
-    margin-top: 50px;
+    margin-top: 0;
 }
 
 #partners .partner-item {
@@ -434,7 +442,7 @@ width: 5rem;
 }
 
 #partners .partner-item img {
-    height: 6rem;
+    height: 4rem;
     margin-top: 30px;
 }
 
@@ -450,7 +458,7 @@ width: 5rem;
 #partners h3 {
     display: inline-flex;
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 600;
     border: 2px;
     /* border-radius: 50%; */
@@ -465,7 +473,7 @@ width: 5rem;
      
     margin: 12px auto;
 
-    width: 12rem;
+    width: 9rem;
     
 }
 
@@ -477,19 +485,24 @@ width: 5rem;
     font-size: 2rem;
 }
 
+#partners .partners-footer p {
+    color: black;
+    font-size: 1.2rem;
+}
+
 #partners button {
     display: block;
     margin: 10px auto;
     padding: 3px 15px;
     color: var(--color-primary);
 
-    font-size: 1.3rem !important;
+    font-size: 1.75rem !important;
     
     background-color: var(--color-secondary);
     outline-color: var(--color-white);
     
     border-radius: 10rem;
-    border-width: 0.15em;
+    border-width: 0.2rem;
     border-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -497,11 +510,28 @@ width: 5rem;
 /* -----------PRICING----------- */
 
 #pricing {
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 #pricing i {
     margin-left: 20px;
+}
+
+#pricing h1 {
+    
+}
+
+#pricing .pricing-desc p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#pricing-
+
+#pricing .card-item h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1;
 }
 
 .card-item{
