@@ -122,6 +122,13 @@ video {
     z-index: 1;
   }
 
+#navbar-example2 .active {
+    background-color: white !important;
+    color: var(--color-primary) !important;
+}
+
+  
+
 .navbar-collapse {
     background-color: white !important;
 }

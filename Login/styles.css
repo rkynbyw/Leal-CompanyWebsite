@@ -26,6 +26,8 @@ button{
     font-family: 'Baloo Thambi 2', cursive !important; 
     font-weight: 700 !important;
     font-size: 1.25rem !important; 
+
+    
 }
 
 h1{
@@ -188,10 +190,10 @@ img{
 /* IMAGE COVER */
 
 .cover-col img{
-    width: 100rem;
+    width: 67rem;
 
     position: absolute;
-    left: -15rem;
+    left: -5rem;
     top: -5rem;
 }
 
@@ -227,11 +229,49 @@ form button i P{
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+
 form button img{
     width: 2rem;
 }
 
 form button span {
-    text-align: center;
+    text-align: ;
     width: auto;
+}
+
+button {
+    
+}
+
+.button-1 {
+    background-color: var(--color-primary) ;
+    color: white ;
+    outline: var(--color-primary);
+    border: transparent;
+
+    height: 2.5rem;
+    width: 100%;
+
+    border-radius: 0.5rem;
+
+}
+
+.button-1:hover {
+    background-color: rgb(137, 15, 143);
+    color: white !important;
+}
+
+.button-2 {
+    color: var(--color-primary);
+    background-color: white;
+    border-color: var(--color-primary);
+
+    height: 2.5rem;
+
+    border-radius: 0.5rem;
+}
+
+.button-2:hover {
+
 }
