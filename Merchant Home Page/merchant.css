@@ -68,12 +68,14 @@ hr{
 .colored-section {
     background-color: #AC11B3;
     color: var(--color-secondary);
+    
     /* height: 80vh; */
   }
   
 .white-section {
     background-color: #fff;
     color: var(--color-primary);
+    
     /* height: 80vh; */
   }
 

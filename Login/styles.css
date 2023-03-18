@@ -59,7 +59,7 @@ img{
 
 
 .container-fluid {
-    padding: 7% 15%;
+    padding: 0 15%;
 }
 
 
@@ -71,7 +71,7 @@ img{
     background-color: white;
     width: 100vw;
     height: 10vh;
-    position: fixed;
+    position:sticky;
     top: 0;
     z-index: 1;
   }
@@ -190,11 +190,13 @@ img{
 /* IMAGE COVER */
 
 .cover-col img{
-    width: 67rem;
+    width: 50rem;
 
     position: absolute;
-    left: -5rem;
-    top: -5rem;
+    left: 6rem;
+    top: -3rem;
+
+    z-index: -1;
 }
 
 
@@ -267,11 +269,88 @@ button {
     background-color: white;
     border-color: var(--color-primary);
 
-    height: 2.5rem;
+    /* height: 2.5rem; */
 
     border-radius: 0.5rem;
+
+    padding: 0.15rem 20%;
 }
 
 .button-2:hover {
+
+}
+
+.button-2 div{
+    width: 100%;
+    margin-left: 1rem;
+
+    /* display: flex; */
+    /* text-align: center; */
+    /* align-items: center; */
+    
+}
+
+.button-2 div p{
+    margin: 0;
+}
+
+
+
+.carousel-control-prev span, .carousel-control-next span {
+    color: black;
+}
+
+.carousel-item {
+    height: 90vh;
+}
+
+
+@media (max-width: 1500px){
+
+
+
+}
+
+@media (max-width: 1384px){
+    
+    
+    
+    .form-col {
+        flex: 0 0 auto;
+        width: 24rem;   
+
+        background-color: rgb(255, 255, 255);
+        padding: 0rem 2rem 2rem;
+
+        border-radius: 1rem;
+    }
+
+    .remember-forgot label, .remember-forgot a{
+        font-size: 0.5rem;
+    }
+
+    .row-class {
+        justify-content: center;
+        /* background-color: aqua */
+        /* background-color: rgba(255, 255, 255, 0.696); */
+        /* padding-bottom: 1.5rem; */
+        /* opacity: .5; */
+    }
+
+    .cover-col img {
+       
+
+        
+    }
+
+    
+}
+
+
+@media (max-width: 1384px){
+
+    .button-2 {
+        padding: 0.15rem 10%;
+    }
 
 }
