@@ -822,6 +822,10 @@ width: 5rem;
 }
 
 @media (max-width: 991px){
+
+    #title {
+        height: auto;
+    }
     
     .how-to-use-leal-button, 
     .mulai-disini-button,

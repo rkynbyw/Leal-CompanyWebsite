@@ -314,7 +314,10 @@ button {
 @media (max-width: 1384px){
     
     
-    
+    .carousel-item {
+        height: auto;
+    }
+
     .form-col {
         flex: 0 0 auto;
         width: 24rem;   
