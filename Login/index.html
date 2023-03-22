@@ -68,7 +68,7 @@
         </div>
         
         <div class="carousel-inner">
-          <div class="carousel-item" data-bs-interval="10000">
+          <div class="carousel-item active" data-bs-interval="10000">
            
             <!-- Login Form -->
             <div class="container-fluid">
@@ -96,11 +96,11 @@
                             <label for="floatingPasswordLogin">Password</label>
                           </div>
                           <div class="remember-forgot row justify-content-between">
-                              <div class="col-6 mb-3 form-check">
+                              <div class="col-6 mb-3 form-check under-form">
                                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                   <label class="form-check-label" for="exampleCheck1">Remember me</label>
                                 </div>
-                                <div class="col-6 text-end">
+                                <div class="col-6 text-end under-form">
                                     <a href="">Forgot password?</a>
                                 </div>
                           </div>
@@ -149,7 +149,7 @@
             </div>
 
           </div>
-          <div class="carousel-item active" data-bs-interval="2000">
+          <div class="carousel-item" data-bs-interval="2000">
             
               
             <!-- Second Form -->
@@ -237,12 +237,38 @@
                               </div>
 
                               <!-- Province / Provinsi Input -->
-
+                              <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                  <option selected>Click to Select</option>
+                                  <option value="1"> Jawa Timur </option>
+                                  <option value="2"> Jawa Tengah </option>
+                                  <option value="3"> Jawa Barat </option>
+                                </select>
+                                <label for="floatingSelect">Province</label>
+                              </div>
 
                               <!-- City (Kota/Kabupaten) Input -->
+                              <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                  <option selected>Click to Select</option>
+                                  <option value="1"> Jombang</option>
+                                  <option value="2"> Surabaya </option>
+                                  <option value="3"> Bandung </option>
+                                </select>
+                                <label for="floatingSelect">City</label>
+                              </div>
 
 
                               <!-- Subdisctric (Kecamatan) Input -->
+                              <div class="form-floating mb-3">
+                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                  <option selected>Click to Select</option>
+                                  <option value="1"> Sukolilo </option>
+                                  <option value="2"> Kenjeran </option>
+                                  <option value="3"> Gubeng </option>
+                                </select>
+                                <label for="floatingSelect">Subdistric</label>
+                              </div>
 
                             </div>
 
