@@ -19,7 +19,8 @@ html{
 }
 
 body{
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 button{
@@ -110,6 +111,7 @@ video {
     width: 100vw;
     height: 10vh;
     position: fixed;
+    position: sticky;
     top: 0;
   }
 
@@ -236,7 +238,7 @@ video {
 /* -----------TITLE----------- */
 
 #title {
-    /* height: 100vh; */
+    height: 100vh;
     padding-top: ;
     color: var(--color-primary);
     background-color: white;
@@ -309,7 +311,7 @@ video {
 }
 
 .heading {
-    padding-top: 7%;
+    /* padding-top: 7%; */
 }
 
 .playstore-download{
@@ -413,22 +415,41 @@ width: 5rem;
 }
 
 #your-zoo .your-zoo-content .your-zoo-content-img{
-    height: 22.5rem;
-    position: relative;
+    /* height: 22.5rem; */
+    /* position: relative; */
+}
+
+#your-zoo .your-zoo-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#your-zoo .your-zoo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 47.5%;
+
+    padding: 10px;
 }
 
 #your-zoo .your-zoo-content .your-zoo-content-img-1 img{
     width: 100%;
-    position: absolute;
-    top: 200;
-    left: 0;
+    height: auto;
 }
 
 #your-zoo .your-zoo-content .your-zoo-content-img-2 img{
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: auto;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img-2 {
+    padding: 0 10px;
+}
+
+#your-zoo .your-zoo-content .your-zoo-card-caption {
+    
+    text-align: center;
 }
 
 
@@ -699,6 +720,22 @@ width: 5rem;
 @media (max-width: 991px){
     #title .title-head {
         padding-top: 5rem;
+    }
+}
+
+@media (max-width: 815px){
+
+    #your-zoo .your-zoo-card {
+        width: 75%;
+        
+    }
+
+    #your-zoo .your-zoo-content {
+        /* display: block; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-direction: column;
     }
 }
 

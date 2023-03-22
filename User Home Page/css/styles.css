@@ -22,6 +22,7 @@ html{
 
 body{
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 button{
@@ -118,6 +119,7 @@ video {
     width: 100vw;
     height: 10vh;
     position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1;
   }
@@ -249,7 +251,7 @@ video {
 /* -----------TITLE----------- */
 
 #title {
-    /* height: 100vh; */
+    height: 100vh;
     /* padding-top: 20vh; */
     color: var(--color-primary);
     background-color: white;
@@ -316,7 +318,7 @@ video {
 } */
 
 .heading {
-    padding-top: 7%;
+    /* padding-top: 7%; */
 }
 
 .playstore-download{
@@ -829,7 +831,7 @@ width: 5rem;
     }
 
     #title .head-desc {
-        padding-top: 3rem;
+        /* padding-top: 3rem; */
     }
 
     #title{
