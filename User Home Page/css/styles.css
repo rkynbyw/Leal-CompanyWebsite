@@ -823,6 +823,17 @@ width: 5rem;
 
 @media (max-width: 991px){
 
+    .navbar {
+        padding: .5rem 2rem .5rem 1rem !important;
+        height: auto;
+    }
+
+    .navbar .nav-item, .navbar .dropdown-menu a {
+        text-align: center;
+    }
+
+
+
     #title {
         height: auto;
     }
@@ -888,7 +899,7 @@ width: 5rem;
 
 @media (max-width: 590px){
     .navbar {
-        height: 8vh;
+        /* height: 8vh; */
     }
 
     #title h1 {
