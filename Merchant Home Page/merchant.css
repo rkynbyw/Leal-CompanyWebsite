@@ -109,10 +109,11 @@ video {
     /* background-color: rgba(231, 25, 25, 0.981); */
     background-color: white;
     width: 100vw;
-    /* height: 10vh; */
+    height: 10vh;
     position: fixed;
     position: sticky;
     top: 0;
+    z-index: 1;
   }
 
 .navbar-collapse {
@@ -307,11 +308,18 @@ video {
 }
 
 #title .heading img{
-    width: 50vh;
+    /* width: 50vh; */
 }
 
 .heading {
     /* padding-top: 7%; */
+}
+
+#title .mockup-apps-img {
+    position: absolute;
+    width: 60%;
+    right: -10%;
+    top: -5%;
 }
 
 .playstore-download{
