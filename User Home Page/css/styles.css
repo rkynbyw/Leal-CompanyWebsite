@@ -335,7 +335,7 @@ video {
     width: 10vw;
 }
 
-.login-button .btn{
+.login-button .btn, .register-button .btn {
     width: 9rem;
     height: 3rem;
 
@@ -772,6 +772,11 @@ width: 5rem;
 
 #download-now .download-button img {
     width: 10vw;
+}
+
+
+.register-button a{
+
 }
 
 
