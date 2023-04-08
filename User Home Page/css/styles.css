@@ -118,7 +118,7 @@ video {
     background-color: white;
     width: 100vw;
     height: 10vh;
-    position: fixed;
+
     position: sticky;
     top: 0;
     z-index: 1;
@@ -454,13 +454,55 @@ width: 5rem;
     border-radius: 2.5rem;
 }
 
+
+#your-zoo .your-zoo-heading {
+    margin-top: 5rem;
+}
+
 #your-zoo .your-zoo-heading p {
     text-align: justify;
     font-size: 1.25rem;
 }
 
-#your-zoo .your-zoo-content-img {
+/* #your-zoo .your-zoo-content-img {
     padding: 3rem;
+} */
+
+#your-zoo .your-zoo-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#your-zoo .your-zoo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 47.5%;
+
+    padding: 10px;
+}
+
+
+
+
+#your-zoo .your-zoo-content .your-zoo-content-img-1 img{
+    width: 100%;
+    height: auto;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img-2 img{
+    width: 100%;
+    height: auto;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img-2 {
+    padding: 0 10px;
+}
+
+#your-zoo .your-zoo-content .your-zoo-card-caption {
+    
+    text-align: center;
+    height: 10rem;
 }
 
 

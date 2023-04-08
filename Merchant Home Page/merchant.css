@@ -110,7 +110,6 @@ video {
     background-color: white;
     width: 100vw;
     height: 10vh;
-    position: fixed;
     position: sticky;
     top: 0;
     z-index: 1;
