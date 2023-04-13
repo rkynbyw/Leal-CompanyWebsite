@@ -204,6 +204,11 @@ h1, p, button {
     .merchant-content {
         margin-top: 1rem;
     }
+
+    .btn {
+        height: 50px;
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width: 956px){
@@ -240,7 +245,7 @@ h1, p, button {
     }
 
     .btn {
-        height: 50px;
+        /* height: 20px; */
         font-size: 1.6rem;
     }
 }
