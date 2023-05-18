@@ -387,7 +387,7 @@
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const storage = getStorage(app);
-    getDownloadURL(ref(storage, 'tes.mp4'))
+    getDownloadURL(ref(storage, 'homepage-video.mov'))
       .then((url) => {
         console.log(url)
         const videofs = document.getElementById("video-fs")
