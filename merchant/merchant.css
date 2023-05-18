@@ -1,0 +1,925 @@
+/* ------------------ Root Variables ------------------ */
+:root {
+    --color-primary: #AC11B3;
+    --color-secondary: #FFCA1A;
+
+    --color-primary-light: #FFEFBB;
+    --color-scondary-light: #FCC1FF;
+
+    --color-primary-dark: #4F0053;
+    --color-secondary-dark: #967300;
+
+    --color-white: #fff;
+    
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+button{
+    font-family: 'Baloo Thambi 2', cursive; 
+    font-weight: 800 !important;
+    font-size: 1.5rem !important; 
+
+}
+
+h1{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+img{
+    /* width: 300px; */
+}
+
+button{
+    margin: 5px 5px;
+}
+
+hr{
+    margin: 0;
+}
+
+
+.colored-section {
+    background-color: #AC11B3;
+    color: var(--color-secondary);
+    
+    /* height: 80vh; */
+  }
+  
+.white-section {
+    background-color: #fff;
+    color: var(--color-primary);
+    
+    /* height: 80vh; */
+  }
+
+.yellow-section {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    /* height: 80vh; */
+}
+
+.container-fluid{
+    padding: 7% 10%;
+  }
+
+
+video {
+    position: absolute;
+    /* right: 50%; */
+    /* bottom: 50%; */
+    width: 25%;
+    z-index: 1;
+}
+
+
+/* -----------NAVBAR----------- */
+
+
+.navbar {
+    padding: 0;
+    margin-top: 0;
+    /* background-color: rgba(231, 25, 25, 0.981); */
+    background-color: white;
+    width: 100vw;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+.navbar-collapse {
+    background-color: white;
+}
+
+#navbar-example2 .container-fluid{
+    padding: 0;
+
+}
+
+#navbar-example2 .active {
+    /* font-weight: 600; */
+    color: var(--color-primary);
+    /* border-radius: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: var(--color-primary); */
+}
+
+.navbar img {
+    width: 10rem;
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+.navbar .nav-item {
+    margin: 0 15px;
+}
+
+.navbar .nav-item a {
+    font-family: ;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+.navbar .nav-item :hover {
+    font-weight: 600;
+    
+}
+
+
+.navbar .nav-item {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+
+.navbar .nav-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #AC11B3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+.navbar .nav-item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: black;
+  }
+
+.navbar form button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.navbar ul .login-button {
+    border-color: #AC11B3;
+    color: #AC11B3;
+}
+
+.navbar ul .login-button:hover {
+    border-color: #AC11B3;
+    background-color: #AC11B3;
+    color: #fff;
+}
+
+.navbar ul .mulai-disini-button {
+    margin: 0;
+    padding: 7px 15px;
+    color: white;
+
+    background-color: var(--color-primary);
+    outline-color: var(--color-white);
+
+    border-radius: 10rem;
+    border-width: 0.1rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important   
+}
+
+.navbar ul .signup-button:hover {
+    border-color: #AC11B3;
+    background-color: #fff;
+    color: #AC11B3;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar-dropdown{
+    margin-right: 30px;
+}
+
+
+
+/* -----------TITLE----------- */
+
+#title {
+    height: 100vh;
+    padding-top: ;
+    color: var(--color-primary);
+    background-color: white;
+    background: ;
+    
+}
+
+#title .container-fluid {
+  padding: 3% 11% 7%;
+}
+
+#title h1{
+    margin-bottom: 2rem;
+    font-size: 3.25rem;
+    letter-spacing: 2px;
+    
+}
+
+#title h1 #hastag {
+    
+    font-family: Poppins, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: white;
+    border-width: 3rem;
+
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--color-primary);
+    /* -webkit-text-fill-color: white; */
+
+    text-shadow: var(--color-primary) 0px 3px 7px;
+
+}
+
+#title p {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+#title .download-button {
+    transition: box-shadow .3s;
+    padding: 0;
+
+     
+}
+
+#title .download-button:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); f
+}
+
+#title .download-button-div{
+    margin: 0;
+    padding: 0;
+}
+
+#title button{
+    border: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#title .heading {
+    /* padding-top: 10%; */
+    
+}
+
+#title .heading img{
+    /* width: 50vh; */
+}
+
+.heading {
+    /* padding-top: 7%; */
+}
+
+#title .mockup-apps-img {
+    /* position: absolute;
+    width: 60%;
+    right: -10%;
+    top: -5%; */
+}
+
+.playstore-download{
+    color: white;
+    border-color: white;
+}
+
+
+.download-button {
+    display: flex;
+}
+
+#title .download-button img {
+    width: 10rem;
+}
+
+.login-button .btn{
+    width: 9rem;
+    height: 3rem;
+
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+
+    background-color: var(--color-secondary);
+
+    border-radius: 10rem;
+    border-width: 0.225rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    padding-bottom: 2.5rem;
+} 
+
+.cs-wa-float {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+
+    transition: box-shadow .3s;
+}
+
+.cs-wa-float:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+.cs-wa-float img {
+width: 5rem;
+}
+
+.mockcup-apps {
+    background-color: #FFCA1A;
+}
+
+.carousel-row {
+    padding: 10rem;
+}
+
+#myCarousel, #carouselExample, .phone-carousel {
+    /* background-color: aquamarine; */
+    position: relative;
+    height: 20rem;
+}
+
+.carousel-frame {
+    position: absolute;
+}
+
+.carousel-frame {
+    position: absolute;
+    width: 18rem;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+
+.carousel-frame img{
+    width: 100%;
+}
+
+.carousel-inner {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2.8rem;
+}
+
+.carousel-item img, .carousel-inner {
+    width: 14rem;
+
+
+}
+
+
+
+#carousel-section{
+    /* height: 90vh; */
+}
+
+#carousel-section img{
+    /* width: 100%; */
+}
+
+.carousel {
+    /* height: 80vh;    */
+   }
+
+.carousel-inner {
+    /* height: 20rem; */
+    /* width: 14rem; important!!!!!!!!! */
+    /* margin-bottom: 5rem; */
+    /* display: flex; */
+    /* justify-content: center; */  
+    /* left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    margin: auto;  */
+}
+
+.phone-carousel {
+    /* width: 15rem;
+    height: 35rem; */
+}
+
+.carousel-item img {
+    /* width: 100%;
+    position: relative; */
+}
+
+.carousel-item {
+    /* width: 20rem; */
+    /* right: 50; */
+    /* position: relative; */
+}
+
+.phone-frame {
+    /* position: absolute;
+    z-index: 2;
+    width: 14rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding-left: 3rem; */
+}
+
+.phone-frame img {
+    /* width: 17rem; */
+}
+
+
+
+
+/* -----------WHY LEAL----------- */
+
+#why-leal p {
+    color: white;
+}
+
+#why-leal img {
+    
+}
+
+#why-leal .why-leal-head {
+    margin-bottom: 60px;
+}
+
+#why-leal .why-leal-item {
+    padding: 0 1.5%;
+    /* padding-left: ;
+    padding-right: ; */
+}
+
+#why-leal .why-leal-content-img{
+    /* max-width: 85%; */
+}
+
+#why-leal .why-leal-content-img img{
+    width: 75%;
+}
+
+
+/* -----------YOUR ZOO----------- */
+
+
+#your-zoo h2{
+    color: var(--color-secondary);
+}
+
+#your-zoo p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.your-zoo-pict {
+    width: 100%;
+    height: 10rem;
+    background-color: #f3f3f3;
+    border-radius: 2.5rem;
+}
+
+#your-zoo .your-zoo-heading {
+    margin-top: 5rem;
+}
+
+#your-zoo .your-zoo-heading p {
+    text-align: justify;
+    font-size: 1.25rem;
+    
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img{
+    /* height: 22.5rem; */
+    /* position: relative; */
+}
+
+#your-zoo .your-zoo-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#your-zoo .your-zoo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 47.5%;
+
+    padding: 10px;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img-1 img{
+    width: 100%;
+    height: auto;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img-2 img{
+    width: 100%;
+    height: auto;
+}
+
+#your-zoo .your-zoo-content .your-zoo-content-img-2 {
+    padding: 0 10px;
+}
+
+#your-zoo .your-zoo-content .your-zoo-card-caption {
+    
+    text-align: center;
+    height: 10rem;
+}
+
+
+
+/* -----------PARTNERS----------- */
+
+#partners {
+
+}
+
+#partners .partners-desc p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#partners .partner-list {
+    padding: 0 50px;
+    margin-top: 0;
+}
+
+#partners .partner-item {
+    padding: 0;
+}
+
+#partners .partner-item img {
+    height: 4rem;
+    margin-top: 30px;
+}
+
+#partners .partner-item div{
+    
+    /* width: 15rem; */
+    margin-top: 10px;
+    /* border-style: solid; */
+    text-align: center;
+    margin: 0 auto;  
+}
+
+#partners h3 {
+    display: inline-flex;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 2px;
+    /* border-radius: 50%; */
+    border-width: 1px;
+    /* border: #4F0053; */
+
+    text-align: center;
+    display: block;
+    border: 2px solid ;
+    border-color: var(--color-primary);
+    border-radius: 2rem;
+     
+    margin: 12px auto;
+
+    width: 9rem;
+    
+}
+
+#partners .partners-footer {
+    margin-top: 30px;
+}
+
+#partners .partners-footer h2 {
+    font-size: 2rem;
+}
+
+#partners .partners-footer p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#partners button {
+    display: block;
+    margin: 10px auto;
+    padding: 3px 15px;
+    color: var(--color-primary);
+
+    font-size: 1.75rem !important;
+    
+    background-color: var(--color-secondary);
+    outline-color: var(--color-white);
+    
+    border-radius: 10rem;
+    border-width: 0.2rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* -----------PRICING----------- */
+
+#pricing {
+    /* padding-top: 50px; */
+}
+
+#pricing i {
+    margin-left: 20px;
+}
+
+#pricing h1 {
+    
+}
+
+#pricing .pricing-desc p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#pricing-
+
+#pricing .card-item h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.card-item{
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+    color: black;
+
+    width: 25rem;
+    max-width: calc(100% - 2rem);
+    /* height: 50vh; */
+
+    border-radius: 2rem;
+    border-width: 0.1rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card-top {
+    width: auto;
+    background-color: #B3261E;
+    color: white;
+
+    margin: 0;
+    padding: 5px;
+
+    border-radius: 10px;
+}
+
+.card-top p {
+    display: flex;
+    margin: 0;
+}
+
+.card-more {
+    font-size: 0.75rem;
+}
+
+.card-more p {
+    margin-bottom: 5px;
+}
+
+.dapatkan-sekarang-button {
+    display: block;
+    margin: 10px auto;
+    padding: 3px 15px;
+    color: white;
+
+    font-size: 1.3rem !important;
+    
+    background-color: var(--color-secondary);
+    outline-color: var(--color-white);
+    
+    border-radius: 10rem;
+    border-width: 0.1rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* -----------Siap Jadi Partner----------- */
+
+#siap-jadi-partner .siap-jadi-partner-content {
+    margin-top: 3rem;
+}
+
+#siap-jadi-partner .siap-jadi-partner-head {
+    margin-bottom: 2rem;
+}
+
+#siap-jadi-partner .siap-jadi-partner-desc {
+    color: black;
+    font-size: 1.20rem;
+}
+
+#siap-jadi-partner .siap-jadi-partner-desc p {
+    margin-bottom: 2rem;
+}
+
+
+
+/* -----------LEANA ILLUS----------- */
+#leana-illus img {
+    width: 20rem;
+}
+
+
+
+/* -----------FOOTER----------- */
+
+#footer {
+    text-align: center;
+    padding: 1% 15% 2%;
+    color: white;
+    height: 15vh;
+}
+
+
+.footer-media {
+    margin: 0 1%;
+}
+
+.footer-tag {
+    margin-top: 3%;
+    
+}
+
+@media (max-width: 1309px){
+    #why-leal .why-leal-item {
+        text-align: center!important;
+    }
+}
+
+
+@media (max-width: 1309px){
+    h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    #title h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        /* justify-content: center; */
+    }
+    #title p, #title .download-button-div{
+        text-align: center;
+    }
+    #title .mockcup-apps img {
+        margin-top: 30px;
+    }
+
+    #why-leal {
+        text-align: center;
+    }
+
+    #your-zoo h1 {
+        text-align: center;  
+        font-size: 2.5rem;  
+    } 
+
+    #your-zoo h2 {
+        text-align: center; 
+    }
+
+    #partners {
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 993px){
+
+    .navbar {
+        padding: .5rem 2rem .5rem 1rem !important;
+    }
+
+    .navbar .nav-item, .navbar .dropdown-menu a {
+        text-align: center;
+    }
+
+    #title .title-head {
+        padding-top: 5rem;
+    }
+
+    #title {
+        height: auto;
+    }
+
+    
+
+}
+
+@media (max-width: 815px){
+
+    #your-zoo .your-zoo-card {
+        width: 75%;
+        
+    }
+
+    #your-zoo .your-zoo-content {
+        /* display: block; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    #partners .partner-item img {
+        height: 4rem;
+    }
+    #partners h3 {
+        font-size: 1.55rem;
+    }
+    #partners .partner-list {
+        margin-top: 0;
+    }
+
+}
+
+
+@media (max-width: 590px){
+    .navbar {
+        /* height: 8vh; */
+    }
+}
+
+@media (max-width: 501px){
+    #pricing button {
+        font-size: 1.4rem !important;
+    }
+}
+
+@media (max-width: 480px){
+    .container-fluid{
+        padding: 7% 7%;
+    }
+    
+    h1,h2{
+        font-size: 2rem !important;
+        /* text-align: start; */
+        line-height: 1.2;
+    }
+
+    p{
+        font-size: 1rem !important; 
+    }
+
+    .card-item{
+        padding: 30px 15px;
+    }
+}
+

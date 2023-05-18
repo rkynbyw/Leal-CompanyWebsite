@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Home Page</title>
+
+    <link rel="icon" type="" href="../asset/image/leal-icon.png">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7fef2b51b2.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap/js/bootstrap.min.js"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+  
+  <!-- NAV -->
+
+  <nav id="navbar-example2" class="navbar navbar-expand-lg">
+    <div class="container-fluid ps-md-5 pe-md-5">
+      
+      <a class="navbar-brand" href="../">
+        <img src="img/leal-logo.png" alt="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-dropdown">
+          <li class="nav-item" hidden>
+            <a class="nav-link active" aria-current="page" href="#title">About us</a>
+          </li>
+          <li class="nav-item" hidden>
+            <a class="nav-link" href="#main-feature">Feature</a>
+          </li>
+          <li class="nav-item" hidden>
+            <a class="nav-link" href="#gam-concept">Gamification</a>
+          </li>
+          <li class="nav-item" hidden>
+            <a class="nav-link" href="#our-partner">Our Partners</a>
+          </li>
+          <li class="nav-item" hidden>
+            <a class="nav-link" href="#how-to-use">How to Use</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../merchant">Merchant</a>
+          </li>
+          <li class="nav-item dropdown" style="background-color: transparent;">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu 
+            </a>
+            <ul class="dropdown-menu">
+              <!-- <li><a class="dropdown-item" href="#title"></a></li> -->
+              <li><a class="dropdown-item" href="#whats-leal">About Us</a></li>
+              <li><a class="dropdown-item" href="#why-leal">Feature</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#your-zoo">Benefit</a></li>
+              <li><a class="dropdown-item" href="#partners">Partners</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <button class="mulai-disini-button btn btn-lg btn-primary" type="">Mulai di Sini</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light rounded-2" tabindex="0">
+
+  
+      <!-- TITTLE -->
+
+  <section id="title" class=" container-fluid title-area">
+
+      <div class="heading text-center">
+        <div class="row">
+          <div class="head-desc col-lg-6 col-md-12 text-start ">
+            
+
+            <h1>
+              <span>Ciptakan Petualanganmu Bersama Timo & Leana</span>  
+              <span id="hastag" class="px-3 py-1">#LealBitFun</span>
+            </h1>
+            <p>Sama seperti kamu yang ingin menjadikan pembelian sehari-hari menyenangkan, Timo dan Leana akan menemani perjalananmu mengenal LEAL lebih dekat.</p>
+            <h1></h1>
+
+                <!-- <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+                <button type="button" class="btn btn-outline-light btn-lg download-button playstore-download"><i class="fab fa-google-play"></i> Download</button> -->
+                  
+            <div class="download-button" hidden>
+              <img class="me-3" src="../asset/image/download-playstore-1.png" alt="">
+              <img src="../asset/image/download-appstore-1.png" alt="">
+            </div>
+
+            <div class="login-button" >
+              <a href="../Login/index.html">
+                <button type="button" class="btn btn-primary">LOGIN</button>
+              </a>
+              
+            </div>
+            
+
+          </div>
+
+          <!-- <img id="" src="../asset/video/Website Illustration_User_1_Elements.gif" class="" alt="Responsive image"> -->
+
+          
+          <!-- gs://leal-firebase.appspot.com/Homepage Animation.mov -->
+
+
+          <div class="col-lg-6 mockup-apps">
+            <video id="video-fs" src="" width="720" height="720" autoplay muted loop></video>
+            <!-- <video src="../asset/video/Website Illustration_User_1_Elements.mov"></video> -->
+            <!-- <video src="../asset/video/Website Illustration_User_1_Elements.mov" width="320" height="240" autoplay muted></video> -->
+            <!-- <video src="../asset/video/Homepage Animation (1).mov" width="720" height="720" autoplay muted loop></video> -->
+          </div>
+        </div>
+      </div> 
+    <div class="cs-wa-float">
+      <img src="../asset/image/whatsapp-logo.png" alt="">
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Whats Leal -->
+  <section id="whats-leal" class="colored-section container-fluid">
+
+    <div class="row">
+
+      <div class="col-lg-7 text-lg-start">
+        <h1 class="heading">Apa itu LEAL?</h1>
+        <p>LEAL adalah platform loyalty digital dengan penawaran menarik dan dilengkapi dengan fitur-fitur menyenangkan untuk mewarnai hari-harimu.</p>
+      </div>
+
+      <div class="col-lg-5 image">
+        <img src="../asset/image/Video-image.svg" class="img-fluid" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Why Leal -->
+  <section id="why-leal" class="colored-section container-fluid row align-items-center">
+
+    <div class="why-leal-head justify-content-center text-center">
+      <h1>Kenapa Harus LEAL?</h1>
+    </div>
+
+    <div class="why-leal-content row justify-content-center" >
+      
+      <div class="col-lg-5  text-lg-end text-md-center why-leal-col1">
+        <img src="../asset/image/🦆 icon _gifts_.svg" alt="">
+        <h2>Redeem Loyalty Voucher</h2>
+        <p>Dengan mengumpulkan 'Pin' di partner favoritmu, LEAL Troops bisa memperoleh banyak voucher menarik.</p>
+      </div>
+
+      <div class="col-lg-1">
+
+      </div>
+
+      <div class="col-lg-5 why-leal-col2">
+        <img src="../asset/image/🦆 icon _beach_.svg" alt="">
+        <h2>Kebebasan Jadi Dirimu Sendiri</h2>
+        <p>Kumpulkan 'Token' dan bebaskan diri untuk merancang perjalanan impianmu!</p>
+      </div>
+      
+    </div>
+
+  </section>
+
+  <hr>
+
+  <!-- Your Zoo -->
+
+  <section id="your-zoo" class="white-section container-fluid">
+    <div id="your-zoo-div" class="row d-flex ">
+
+      <div class="your-zoo-heading col-lg-6 text-start order-lg-2">
+        <h1>Ciptakan 'ZOO'-Mu Sendiri</h1>
+        <p class="my-3">LEAL bukan hanya menyediakan promo-promo menarik, melainkan juga memberi kesempatan bagi imajinasimu terus berkembang dan memberi kamu kebebasan untuk merancang <b>'Zoo'</b> impianmu.</p>
+      </div>
+      
+      <div class="your-zoo-content col-lg-6 col-sm-12 text-lg-start text-md-center order-lg-1" >
+        
+          
+          <div class="your-zoo-card">
+            <!-- <div class="your-zoo-pict"></div> -->
+            <div class="your-zoo-content-img your-zoo-content-img-1 mb-3">
+              <img  src="../asset/image/Star.png" alt="">
+            </div>
+            <div class="your-zoo-card-caption">              
+              <h2>PIN</h2>
+              <p>Diperoleh dengan melakukan pembelian pada satu LEAL's Partners untuk mendapatkan promo-promo menarik</p>
+            </div>
+          </div>
+
+          <div class="your-zoo-card">
+            <!-- <div class="your-zoo-pict"></div> -->
+            <div class="your-zoo-content-img your-zoo-content-img-2 mb-3">
+              <img  src="../asset/image/Pin.png" alt="">
+            </div>
+            <div class="your-zoo-card-caption">
+              <h2>TOKEN</h2>
+              <p>Didapat dari seluruh pembelian pada LEAL’s Partners untuk memberimu kebebasan merancang 'Zoo' impianmu</p>
+            </div>
+          </div>
+          
+        
+      </div>
+
+      
+
+      
+    </div>
+
+  </section>
+
+  <hr>
+
+  <!-- Your Zoo -->
+  <section id="how-to-use-leal" class="container-fluid white-section " hidden>
+    <div class="row">
+      
+      <div class="col-lg-8 how-to-use-leal-text text-center order-lg-2 order-md-1 order-sm-1 order-xs-1">
+        <h1>Kamu Bingung Cara Menggunakan Leal?</h1>
+        <button class="how-to-use-leal-button btn">Tanya Timo</button>
+      </div>
+
+      <div class="col-lg-4 timo-illus order-lg-1 order-md-2 order-sm-2 order-xs-2">
+        <img src="../asset/image/how-to-use-timo-illus.png" class="img-fluid" alt="">
+      </div>
+    </div>
+    
+  </section>
+
+
+  <section id="partners" class="white-section container-fluid">
+
+    <h1>LEAL's Partners</h1>
+
+    <div class="row text-center partner-list">
+        <div class="col-lg-4 col-md-6 partner-item">
+            <img src="../asset/image/Partners/🦆 icon _google_.svg" alt="">
+            <div>
+              <h3>GG Laundry</h3>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 col-md-6 partner-item">
+            <img src="../asset/image/Partners/🦆 icon _linkedin_.svg" alt="">
+            <div>
+              <h3>Ina Resto</h3>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 partner-item">
+            <img src="../asset/image/Partners/🦆 icon _next js_.svg" alt="">
+            <div>
+              <h3>Nes Cafe</h3>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 partner-item">
+            <img src="../asset/image/Partners/🦆 icon _tiktok_.svg" alt="">
+            <div>
+              <h3>T Saloon</h3>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 partner-item">
+            <img src="../asset/image/Partners/🦆 icon _gmail_.svg" alt="">
+            <div>
+              <h3>M Barber</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="partners-footer text-center">
+      <!-- <h2>
+        <span class="partner-span1" style="color: black;""><u>Daftar sekarang</u></span>
+        <span class="partner-span2" style="color: black;">untuk menjadi </span>
+        <span class="partner-span3">The Partners!</span>  
+      </h2> -->
+      <p>Klik disini untuk lihat partner favoritmu!</p>
+  
+      <button>KLIK DI SINI</button>
+    </div>
+
+  </section>
+
+
+
+  <hr>
+
+  <!-- start-journey -->
+  <section id="start-journey" class="white-section container-fluid">
+    <!-- Ini ga dipake  -->
+    <div class="row gy-5" hidden> 
+      <div class="col-lg-6 text-lg-start text-center">
+        <h1>START YOUR JOURNEY WITH LEAL</h1>
+        <button class="start-journey-button btn">MULAI DI SINI</button>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="../asset/image/leana-illus.png" class="img-fluid" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <img src="../asset/image/leana-illus-dialog.svg" alt="">
+      </div>
+
+      <div class="col text-end">
+        <img src="../asset/image/timo-illus-dialog.svg" alt="">
+      </div>
+    </div>
+
+    <div class="register-button text-center">
+      <a href="">
+        <button class="btn btn-primary">Registrasi</button>
+      </a>
+    </div>
+    
+
+  </section>
+  
+    
+
+  </section>
+
+  <footer id="footer" class="colored-section">
+    
+    <i class="footer-media fa-brands fa-twitter"></i>
+    <i class="footer-media fa-brands fa-facebook-f"></i>
+    <i class="footer-media fa-brands fa-instagram"></i>
+    <i class="footer-media fa-solid fa-envelope"></i>
+    <p class="footer-media footer-tag">© Copyright LEAL</p>
+
+  </footer>
+
+
+
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="script.js"></script>
+
+  <!-- <script type="module" src="fsstorage.js"></script> -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+
+    import {getStorage, ref, getDownloadURL} from "https://www.gstatic.com/firebasejs/9.22.0/firebase-storage.js";
+     // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAq72PSNdRUKPo6q1LlpHEvzMwH2WaFF1I",
+      authDomain: "leal-firebase.firebaseapp.com",
+      projectId: "leal-firebase",
+      storageBucket: "leal-firebase.appspot.com",
+      messagingSenderId: "335720260295",
+      appId: "1:335720260295:web:e19c816b0da2c2517c54e2",
+      measurementId: "G-XEGGH5EX9W"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const storage = getStorage(app);
+    getDownloadURL(ref(storage, 'tes.mp4'))
+      .then((url) => {
+        console.log(url)
+        const videofs = document.getElementById("video-fs")
+        videofs.src=url 
+
+        videofs.getDownloadURL().then((url) => {
+          const videoElement = document.getElementById("video-fs");
+          videoElement.src = url;
+          videoElement.play();
+});
+
+      })
+    // document.getElementById();
+    // const analytics = getAnalytics(app);
+    console.log(app.projectId)
+
+  </script>
+
+
+</body>
+</html>

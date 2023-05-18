@@ -1,0 +1,48 @@
+.container-fluid {
+    
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    background-color:white;
+    /* height: 50vh; */
+    padding: 7% 15%;
+}
+
+.phone-carousel {
+    width: 30rem;
+}
+
+.carousel-inner {
+    /* height: 20rem; */
+    width: 20rem;
+    /* margin-bottom: 5rem; */
+    /* display: flex; */
+    /* justify-content: center; */    
+}
+
+.carousel-item {
+    width: 20rem;
+    /* right: 50; */
+    /* position: relative; */
+}
+
+.carousel {
+ height: 80vh;   
+}
+
+.phone-frame {
+    position: absolute;
+    z-index: 2;
+    width: 24rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
