@@ -95,12 +95,14 @@ p{
   }
 
 
-video {
+.mockup-apps video {
     position: absolute;
-    /* right: 50%;
-    bottom: 50%;
-    width: 25%; */
-    z-index: 1;
+    /* right: 50%; */
+    /* bottom: 50%; */
+    z-index: 0;
+    left: 45%;
+    top: -7%;
+    
 }
 
 .area1 {
