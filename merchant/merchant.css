@@ -374,6 +374,22 @@ width: 5rem;
     background-color: #FFCA1A;
 }
 
+#title .carousel-inner {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2.8rem;
+}
+
+#title .carousel-frame {
+    position: absolute;
+    width: 18rem;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+}
+
 .carousel-row {
     padding: 10rem;
 }
@@ -392,8 +408,8 @@ width: 5rem;
     position: absolute;
     width: 18rem;
     z-index: 2;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 80%;
+    transform: translateX(-20%);
     top: 20%;
 }
 
@@ -403,15 +419,13 @@ width: 5rem;
 
 .carousel-inner {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 80%;
+    transform: translateX(-12.25%);
     padding-top: 2.8rem;
 }
 
 .carousel-item img, .carousel-inner {
     width: 14rem;
-
-
 }
 
 
@@ -748,6 +762,10 @@ width: 5rem;
 
 
 /* -----------Siap Jadi Partner----------- */
+
+#siap-jadi-partner {
+    height: 80vh;
+}
 
 #siap-jadi-partner .siap-jadi-partner-content {
     margin-top: 3rem;
