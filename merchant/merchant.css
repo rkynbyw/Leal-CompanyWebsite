@@ -767,6 +767,25 @@ width: 5rem;
     height: 80vh;
 }
 
+#siap-jadi-partner .join-here-button {
+    margin: 0;
+    padding: 7px 15px;
+    color: white;
+    width: 11.5rem;
+
+    background-color: var(--color-primary);
+    outline-color: var(--color-white);
+
+    border-radius: 10rem;
+    border-width: 0.3rem;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
+    font-family: 'Baloo Thambi 2', cursive; 
+    font-weight: 800 !important;
+    font-size: 1.5rem !important; 
+}
+
 #siap-jadi-partner .siap-jadi-partner-content {
     margin-top: 3rem;
 }
@@ -797,20 +816,28 @@ width: 5rem;
 
 #footer {
     text-align: center;
-    padding: 1% 15% 2%;
+    padding: 3rem 15% 2%;
     color: white;
     height: 15vh;
+    background-color: var(--color-secondary);
+}
+
+#footer img {
+    width: 2rem;
 }
 
 
 .footer-media {
-    margin: 0 1%;
+    /* margin: 0 1%; */
 }
 
 .footer-tag {
-    margin-top: 3%;
+    margin-top: 1rem;
     
 }
+
+
+/* MEDIA QUERY */
 
 @media (max-width: 1309px){
     #why-leal .why-leal-item {

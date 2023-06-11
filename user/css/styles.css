@@ -100,7 +100,7 @@ p{
     /* right: 50%; */
     /* bottom: 50%; */
     z-index: 0;
-    left: 50%;
+    left: 53%;
     top: -7%;
     
 }
@@ -266,8 +266,8 @@ p{
   padding: 3% 11% 7%;
 }
 
-#title .head-desc {
-    
+#title .head-desc p {
+    padding-right: 5rem;
 }
 
 #title h1{
@@ -419,7 +419,8 @@ width: 5rem;
 }
 
 #why-leal img {
-    width: 150px;
+    height: 10rem;
+    margin-bottom: 1rem;
 }
 
 .why-leal-head {
@@ -537,10 +538,16 @@ width: 5rem;
 
 
 /* -----------START JOURNEY----------- */
-.start-journey-button{
-    margin-top: 5%;
 
- 
+#start-journey {
+    position: relative;
+}
+
+
+.start-journey-button{
+    /* margin-top: 5%; */
+    height: 4.8rem;
+    width: 11.6rem;
 
     font-family: 'Baloo Thambi 2', cursive;
     font-weight: 800;
@@ -559,12 +566,18 @@ width: 5rem;
     border-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+    position: absolute;
+    top: 59.3%;
+    right: 57.3%;
+
     
 }
 
 #start-journey img{
     height: 35rem;
 }
+
+
 
 
 /* -----------MAIN FEATURE----------- */
@@ -828,18 +841,23 @@ width: 5rem;
 
 #footer {
     text-align: center;
-    padding: 1% 15% 2%;
+    padding: 3rem 15% 2%;
     color: white;
     height: 15vh;
+    background-color: var(--color-secondary);
+}
+
+#footer img {
+    width: 2rem;
 }
 
 
 .footer-media {
-    margin: 0 1%;
+    /* margin: 0 1%; */
 }
 
 .footer-tag {
-    margin-top: 3%;
+    margin-top: 1rem;
     
 }
 
@@ -907,6 +925,7 @@ width: 5rem;
 
     #whats-leal {
         text-align: center;
+        height: 70vh;
     }
 
     #why-leal {
